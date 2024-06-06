@@ -48,9 +48,9 @@ kotlin {
 
 android {
     namespace = "com.ayabonga.booi.dailypulsenews"
-    compileSdk = 32
+    compileSdk = 34
     defaultConfig {
         minSdk = 24
-        targetSdk = 32
+        targetSdk = 34
     }
 }
