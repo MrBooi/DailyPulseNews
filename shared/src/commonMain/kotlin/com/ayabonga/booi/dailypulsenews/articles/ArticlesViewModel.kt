@@ -24,7 +24,7 @@ class ArticlesViewModel : BaseViewModel() {
     }
 
 
-    private  suspend fun fetchArticles(): List<Article> = mockArticles
+    private fun fetchArticles(): List<Article> = mockArticles
 
     private val mockArticles = listOf(
         Article(
