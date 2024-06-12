@@ -1,4 +1,7 @@
 package com.ayabonga.booi.dailypulsenews
 
-class BaseViewModel {
+import kotlinx.coroutines.CoroutineScope
+
+expect  open class BaseViewModel() {
+    val scope: CoroutineScope
 }
